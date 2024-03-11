@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tsoha-harjoitustyo"
+version = "0.1.0"
+description = ""
+authors = ["Camilla Campbell <camilla.campbell@helsinki.fi>"]
+readme = "README.md"
+packages = [{include = "tsoha_harjoitustyo"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
